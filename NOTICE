@@ -1,0 +1,27 @@
+WorkDraw
+Copyright 2026 Kutay Soysal
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+The name "WorkDraw" and the WorkDraw logo and emblem (src/brand/) are not
+licensed for use as trademarks beyond describing the origin of the software
+(Apache-2.0, section 6).
+
+Third-party components bundled in app/ and web/ keep their own licenses:
+
+- jsPDF 2.5.1 (app/jspdf.umd.min.js)
+  MIT License. Copyright (c) 2010-2021 James Hall and contributors.
+  https://github.com/parallax/jsPDF
+- JSZip 3.10.2 (app/jszip.min.js), including pako
+  Dual-licensed under MIT or GPLv3; used here under the MIT license.
+  Copyright (c) 2009-2016 Stuart Knightley and contributors.
+  https://github.com/Stuk/jszip
+- mammoth.js (app/mammoth.browser.min.js)
+  BSD 2-Clause License. Copyright (c) Michael Williamson.
+  https://github.com/mwilliamson/mammoth.js
+- PDF.js (app/pdf.min.js, app/pdf.worker.min.js)
+  Apache License 2.0. Copyright 2023 Mozilla Foundation.
+  https://github.com/mozilla/pdf.js
+
+The Electron runtime and Chromium inside the Windows installer are covered by
+their own licenses (LICENSE.electron.txt and LICENSES.chromium.html, shipped in
+the installed application folder).
